@@ -25,7 +25,7 @@ end
 def assign_rooms(attendees)
   cnt = 0
   myArr = Array.new
-  attendees.each do |item|
+  attendees.each do |item| {cnt = cnt + 1}
     # cnt = cnt + 1
     # item = "Hello," item + '!' + "You'll be assigned to room " + cnt + '!'
     myArr.push(item)
