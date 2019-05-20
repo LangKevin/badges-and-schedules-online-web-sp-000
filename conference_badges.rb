@@ -29,7 +29,7 @@ def assign_rooms(attendees)
     # cnt = cnt + 1
     # item = "Hello," item + '!' + "You'll be assigned to room " + cnt + '!'
     cnt += 1
-    item = "Hello, #{item}! + You'll be assigned to room #{cnt}!"
+    item = "Hello, #{item}! You'll be assigned to room #{cnt}!"
     myArr.push(item)
   end
   return myArr
