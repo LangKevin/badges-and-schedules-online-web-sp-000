@@ -12,7 +12,7 @@
 def batch_badge_creator(attendees)
   myArr = Array.new
   attendees.each do |item|
-    item = "Hello, my name is " + item + '.s'
+    item = "Hello, my name is " + item + '.'
     myArr.push(item)
   end
   return myArr
