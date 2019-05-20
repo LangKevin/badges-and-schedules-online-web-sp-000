@@ -32,3 +32,6 @@ def assign_rooms(attendees)
   end
   return myArr
 end
+
+def printer(attendees)
+end
