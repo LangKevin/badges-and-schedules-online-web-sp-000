@@ -23,5 +23,10 @@ def badge_maker(name)
 end
 
 def assign_rooms(attendees)
-
+  myArr = Array.new
+  attendees.each do |item|
+    item = "Hello," item + '!' + "You'll be assigned to room" + '!' 
+    myArr.push(item)
+  end
+  return myArr
 end
