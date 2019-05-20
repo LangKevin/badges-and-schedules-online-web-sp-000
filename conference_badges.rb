@@ -34,5 +34,5 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  puts("Hello, my name is #{attendees[0]}.")  
+  return "Hello, my name is #{attendees[0]}."  
 end
