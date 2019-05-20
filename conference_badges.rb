@@ -8,19 +8,19 @@
 #                           "Hello, Linus! You'll be assigned to room 6!",
 #                           "Hello, Matz! You'll be assigned to room 7!"
 #                        ]
-#                        
+#
 def batch_badge_creator(attendees)
   myArr = Array.new
   attendees.each do |item|
     myArr.push(item)
   end
   return myArr
-end  
+end
 
 def badge_maker(name)
   return "Hello, my name is #{name}."
-end  
+end
 
 def assign_rooms(attendees)
-  
-end  
+
+end
